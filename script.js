@@ -18,7 +18,7 @@ function Jukebox() {
 
 
 
-// var Jukebox = new Jukebox();
+var Jukebox = new Jukebox();
 
 document.getElementsByTagName("h1")[0].addEventListener("click", Jukebox.play);
 document.getElementsByTagName("h2")[0].addEventListener("click", Jukebox.pause);
