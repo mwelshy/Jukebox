@@ -4,7 +4,7 @@ Give the user the ability to stop that song without using the "built-in" stop bu
 Give the user the ability to load at least one different song into the Jukebox besides the one that is loaded when the page initially renders
 The whole Jukebox should be backed by an object called Jukebox with methods to play, stop, and load songs. */
 
-mySongs = ["assets/final_countdown.mp3", "assets/h3h3song.mp3"]
+var mySongs = ["assets/final_countdown.mp3", "assets/h3h3song.mp3"];
 
 
 function Jukebox() {
