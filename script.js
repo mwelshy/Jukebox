@@ -27,9 +27,11 @@ function Jukebox() {
 
 	this.songOne = function () {
 		document.getElementById("music").src= mySongs[1];
+		document.getElementsByTagName("h1")[0].innerHTML = "H3H3SONG!";
 	}
 	this.songTwo = function() {
 		document.getElementById("music").src= mySongs[0];
+		document.getElementsByTagName("h1")[0].innerHTML = "The Final Countdown!";
 
 	}
 }
@@ -47,7 +49,7 @@ function Jukebox() {
 
 var Jukebox = new Jukebox();
 
-document.getElementsByTagName("h1")[0].addEventListener("click", Jukebox.play);
+document.getElementsByTagName("h1")[1].addEventListener("click", Jukebox.play);
 document.getElementsByTagName("h2")[0].addEventListener("click", Jukebox.pause);
 document.getElementsByTagName("h3")[0].addEventListener("click", Jukebox.volumeUp);
 document.getElementsByTagName("h3")[1].addEventListener("click", Jukebox.volumeDown);

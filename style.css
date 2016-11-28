@@ -1,5 +1,11 @@
-h1 {
-	color: green;
+.play {
+	color: white;
+	border: 1px solid black;
+	font-family: helvetica;
+	width: 100px;
+	background-color: beige;
+	padding-left: 45px;
+	display: inline-block;
 }
 
 h2 {
